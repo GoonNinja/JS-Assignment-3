@@ -29,9 +29,4 @@ function buildSmoothie() {
         "Size: " + smoothieOptions.size + "<br>" +
         "Ingredients: " + (smoothieOptions.ingredients.length > 0 ? smoothieOptions.ingredients.join(', ') : "None") + "<br>" +
         "Flavor Boost: " + smoothieOptions.flavor;
-
-     // Display ingredient images
-     displayIngredientImages(smoothieOptions.ingredients);
 }
-
-
